@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'android';
-    src: url('Technocra.otf') format('opentype'), url('Technocra.ttf') format('truetype');
+    src: url('/fontes/militech.otf') format('opentype'), url('Technocra.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'fontetitulo';
-    src: url('militech.otf') format('opentype'), url('militech.ttf') format('truetype');
+    src: url('/fontes/Technocra.otf') format('opentype'), url('militech.ttf') format('truetype');
 }
 
 body{
@@ -18,7 +18,7 @@ body{
 header{
     background-image: linear-gradient(to top,#027373, rgb(3, 140, 127), #A9D9D0);
     color: #bdbdbd;
-    font-family: 'android', sans-serif;
+    font-family: 'fontetitulo', sans-serif;
     font-size: 22px;
     margin:auto;
     margin: 0px;
@@ -43,6 +43,7 @@ nav{
     background-color: #0052528e;
     padding: 3px;
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.425);
+    border-radius: 8px;
 }
 
 nav > a{
@@ -66,7 +67,7 @@ nav>a:hover{
 
 #primtitulo{
     text-align: justify;
-    font-family: 'fontetitulo', sans-serif;
+    font-family: 'android', sans-serif;
     font-size: 2em;
     background-image: linear-gradient(to right,rgb(3, 140, 127),  #A9D9D0);
     padding-left: 7px;
@@ -74,22 +75,22 @@ nav>a:hover{
 }
 
 #segtitulo{
+    font-family: 'android', sans-serif;
+    font-size: 2em;
     padding: 5px 0px 5px 8px;
     background-image: linear-gradient(to right,rgb(3, 140, 127),  #A9D9D0);
-    font-size: 2em;
-
 }
 
 #tertítulo{
     padding: 5px 0px 5px 8px;
     background-image: linear-gradient(to right,rgb(3, 140, 127),  #A9D9D0);
     font-size: 2em;
-    font-family: 'fontetitulo';
+    font-family: 'android';
 }   
 
 #quatitulo{
     text-align: justify;
-    font-family: 'fontetitulo', sans-serif;
+    font-family: 'android', sans-serif;
     font-size: 2em;
     background-image: linear-gradient(to right,rgb(3, 140, 127),  #A9D9D0);
     padding: 5px 0px 5px 8px;
@@ -157,6 +158,7 @@ aside{
 }
 
 aside h2{
+    font-family: 'android',sans-serif;
     background-color:#1b4747;
     color: rgb(0, 0, 0);
     margin: -10px -10px 0px -10px;
