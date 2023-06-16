@@ -27,6 +27,7 @@ header{
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.322);
 }
 #logo{
+    font-family: 'fontetitulo', sans-serif;
     font-size: 65px;
     color: black;
     text-shadow: 2px 2px 4px #1b4747;
