@@ -38,6 +38,7 @@ header{
 
 #slogan{
     color: black;
+    font-style: bold;
 }
 nav{
     text-align: start;
