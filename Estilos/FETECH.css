@@ -18,7 +18,7 @@ body{
 header{
     background-image: linear-gradient(to top,#027373, rgb(3, 140, 127), #A9D9D0);
     color: #bdbdbd;
-    font-family: 'fontetitulo', sans-serif;
+    font-family: 'fontetitulo';
     font-size: 22px;
     margin:auto;
     margin: 0px;
@@ -67,8 +67,10 @@ nav>a:hover{
 }
 
 #primtitulo{
+    padding-left: 4px;
+    padding-right: 5px;
     text-align: justify;
-    font-family: 'android', sans-serif;
+    font-family: 'android', serif;
     font-size: 2em;
     background-image: linear-gradient(to right,rgb(3, 140, 127),  #A9D9D0);
     padding-left: 7px;
@@ -76,7 +78,7 @@ nav>a:hover{
 }
 
 #segtitulo{
-    font-family: 'android', sans-serif;
+    font-family: 'android', serif;
     font-size: 2em;
     padding: 5px 0px 5px 8px;
     background-image: linear-gradient(to right,rgb(3, 140, 127),  #A9D9D0);
